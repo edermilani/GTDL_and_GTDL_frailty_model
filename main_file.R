@@ -216,9 +216,9 @@ summary(gd_i)
 summary(ld)
 
 ## cook's distance
-plot(seq(1,nrow(x)), beta_i, type='h', lwd=2, ylab="Generalized Cook Distance" , xlab="Index", cex.lab=1.5, cex.axis=1.5)
+plot(seq(1,nrow(x)), gd_i, type='h', lwd=2, ylab="Generalized Cook Distance" , xlab="Index", cex.lab=1.5, cex.axis=1.5)
 
 #likelihood distance
-plot(aux_seq, ld, type='h', lwd=2, ylab="Likelihood Distance ", xlab="Index", cex.lab=1.5, cex.axis=1.5)
+plot(seq(1,nrow(x)), ld, type='h', lwd=2, ylab="Likelihood Distance ", xlab="Index", cex.lab=1.5, cex.axis=1.5)
 
 
